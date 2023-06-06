@@ -1,0 +1,29 @@
+/* Color de fondo, borde y texto para los enlaces activos */
+.pagination .page-item.active .page-link {
+    background-color: #1B5C3F;
+    border-color: #1B5C3F;
+    color: rgb(255, 255, 255);  /* Color de texto para enlaces activos */
+
+}
+
+/* Sombra de enfoque para enlaces de paginación */
+.pagination .page-link:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 128, 0, 0.214);
+}
+
+/* Color de texto para enlaces deshabilitados */
+.pagination .page-item.disabled .page-link {
+    color: #1B5C3F !important;  /* Color de texto para enlaces deshabilitados */
+}
+
+/* Color de texto para enlaces no activos */
+.pagination .page-item:not(.active) .page-link {
+    color: #1B5C3F;  /* Color de texto para enlaces no activos */
+    box-shadow: 10px 10px 20px -10px rgba(27,92,63,1) !important; /* Sombra siempre presente */
+}
+
+/* Cambio de color de fondo y texto al pasar el ratón por encima */
+.pagination .page-item .page-link:hover {
+    background-color: white !important;
+    color: #1B5C3F !important;
+}

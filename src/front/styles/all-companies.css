@@ -1,0 +1,30 @@
+.all-companies {
+  position: relative;
+  width: 100%;
+  min-height: 100vh; 
+  height: fit-content;
+  overflow-y: auto;
+  padding-bottom: 50px; 
+   font-family: 'Lato', sans-serif;
+}
+
+.all-cards-view {
+  margin-right: 150px;
+  margin-top:10px;
+}
+.all-companies::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://res.cloudinary.com/dcgc2tppo/image/upload/v1684921271/dlwrbifwozagt6r7yp2w.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: 100%;  /* Asegura que el ancho de la imagen sea siempre el 100% del contenedor */
+  background-position: center;  /* Centra la imagen */
+}

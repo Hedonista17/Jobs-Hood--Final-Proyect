@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Armenian:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.register {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  overflow-y: auto;
+  padding-bottom: 50px;
+}
+
+#titulo-principal {
+  font-family: 'Lato', sans-serif;
+}
+
+#titulo-web {
+  color: #1B5C3F;
+}
+
+#titulo-secundario {
+  font-weight: 400;
+  margin-bottom: 5%;
+}
+
+#card {
+  background-color: #f8f8f893
+}
+
+#cuerpo-register {
+  width: 250px;
+  height: 300px;
+
+}
+
+#titulo-register {
+  color: #1B5C3F;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Noto Serif Armenian', serif;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#iconos {
+  color: #104415;
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  margin-left: 5%;
+
+}
+
+
+
+
+.register::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://res.cloudinary.com/dcgc2tppo/image/upload/v1684939717/nhxqzlq6adlk1ezkc5x0.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: 100%;
+  /* Asegura que el ancho de la imagen sea siempre el 100% del contenedor */
+  background-position: center;
+  /* Centra la imagen */
+}

@@ -1,0 +1,70 @@
+#container {
+  margin: 0px;
+  padding: 0px;
+  background-image: url('https://res.cloudinary.com/dcgc2tppo/image/upload/v1685538554/pexels-lex-photography-1109543_jr6x9b.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
+}
+
+#side-bar {
+  width: 30%;
+  height: 100vh;
+  margin-left: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(9, 121, 63, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.logo {
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 90px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 90px;
+  border: 3px solid;
+  border-color: #104415;
+  width: 200px;
+  object-fit: cover;
+  background-color: rgba(255, 255, 255, 0.918);
+}
+
+.titulo-side-bar {
+  color: beige;
+  font-family: 'Noto Serif Armenian', serif;
+  font-size: 30px;
+  font-weight:bolder;
+}
+
+.texto-side-bar {
+  color: beige;
+  font-family: 'Noto Serif Armenian', serif;
+  font-size: 16px;
+  justify-content: center;
+
+}
+
+.cartas-home {
+  width: 60rem;
+}
+
+.titulo-cards-home {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.texto-carta {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+.menu {
+  margin-left: 10%;
+  margin-top: 8%;
+}
+
+.container-question {
+  border: 1px solid gray;
+  border-radius: 5px;
+}

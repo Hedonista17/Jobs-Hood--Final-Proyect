@@ -1,0 +1,14 @@
+.imagenContacto{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;  
+    height: 200px;  
+}
+
+.material-symbols-outlined{
+    font-size: 30px;
+}
+
+.col-number,.cif{
+    font-size: 14px;
+}

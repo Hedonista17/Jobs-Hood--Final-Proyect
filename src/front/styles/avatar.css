@@ -1,0 +1,99 @@
+input[type="file"] {
+    display: none; /*Aqui ocultamos el texto que aparece por defecto en estetipo de input*/
+}
+
+.file {
+  width: 140px;
+  height: 50px;
+  background-color: #006540;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.file span {
+  
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+
+}
+
+.file_text {
+  font-size: 12px;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.file_ico {
+  font-size: 20px;
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.file:hover {
+  background-color: #009b62;
+}
+
+.file:hover .file_text {
+  top: -100%;
+}
+
+.file:hover .file_ico {
+  top: 50%;
+}
+
+button {
+  width: fit-content;
+  min-width: 100px;
+  height: 50px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2.5px solid #E0E1E4;
+  box-shadow: 0px 0px 20px -20px;
+  cursor: pointer;
+  background-color: white;
+  transition: all 0.2s ease-in-out 0ms;
+  user-select: none;
+}
+
+button:hover {
+  background-color: #F2F2F2;
+  box-shadow: 0px 0px 20px -18px;
+}
+
+button:active .send {
+  font-size: 18px;
+  transition: 0.1s;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.avatar_container{
+  max-width: 290px;
+  
+}
+
+.preview > div{
+  max-width: 220px;
+  max-height: 220px;
+}
+
+.preview{
+  margin: auto;
+}

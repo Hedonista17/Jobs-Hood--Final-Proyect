@@ -1,0 +1,70 @@
+.contact-container {
+  min-height: 100vh; 
+}
+
+.colorful-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.contact-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+}
+
+textarea.form-input {
+  height: 100px;
+  box-shadow: 10px 10px 20px -15px rgba(27,92,63,1);
+  overflow-y: scroll;
+}
+
+textarea.form-input:focus {
+  border: none;
+  outline: none;
+}
+
+.send-contact-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://res.cloudinary.com/dcgc2tppo/image/upload/v1684939717/nhxqzlq6adlk1ezkc5x0.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: 100%;  /* Asegura que el ancho de la imagen sea siempre el 100% del contenedor */
+  background-position: center;  /* Centra la imagen */
+}

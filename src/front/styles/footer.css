@@ -1,0 +1,67 @@
+/*
+    home.css: This website contains selectors only used in home.css
+
+    All pages share the styles on index.css but you should create 
+    one more css for each page that will contain the selected used 
+    on that page only (the ones not reused in other pages).
+*/
+
+.sticky-bottom {
+  margin-top: auto;
+  width: 100%; 
+  background: rgba(255, 255, 255, 0.50);
+  -webkit-box-shadow: 1px -2px 6px 4px rgba(162,165,168,0.5); 
+  box-shadow: 1px -2px 6px 4px rgba(162,165,168,0.5);
+}
+
+.footer_body {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 50px; /* Agrega un relleno a izquierda y derecha */
+}
+
+.priv_contact {
+  display: flex;
+  margin-left: auto;
+  gap: 20px; /* Disminuye el espacio entre los enlaces de privacidad y contacto */
+}
+
+.privacy a,
+.contact a{
+  text-decoration: none;
+  color: rgb(34, 82, 50);
+}
+
+.privacy :hover,
+.contact :hover{
+  scale: 1;
+  transition: 0.5s;
+}
+
+.icon-circle a {
+  width:35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #eaebeace;
+  color: #fff;
+  place-items: center;
+  display: grid;
+}
+
+.icon-circle a:hover {
+  background-color: #1B5C3F;
+  transition: 0.3s;
+}
+
+.ico {
+  color: #1B5C3F;
+  background-color: transparent;
+  font-size: 21px;
+}
+
+.icon-circle a:hover .ico{
+  background-color: transparent;
+  color: rgb(243, 245, 244);
+  rotate: 360deg;
+  transition: 0.3s;
+}

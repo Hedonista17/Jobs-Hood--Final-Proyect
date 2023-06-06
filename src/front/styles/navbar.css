@@ -1,0 +1,53 @@
+.logo-web {
+    max-width: 250px;
+    max-height: 60px;
+    padding: 1%;
+    margin-left: 5px;
+    ;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.445);
+    -webkit-box-shadow: 1px 6px 6px 1px rgba(162,165,168,0.51); 
+box-shadow: 1px 6px 6px 1px rgba(162,165,168,0.51);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-navbar {
+    height: 41px;
+    border: unset;
+    color: #053D20;
+    z-index: 1;
+    background: hsl(0, 8%, 95%);
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 250ms;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;}
+
+.btn-navbar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #104415;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms
+}
+
+.btn-navbar:hover {
+    color: #e8e8e8;
+}
+
+.btn-navbar:hover::before {
+    width: 100%;
+}

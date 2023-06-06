@@ -1,0 +1,20 @@
+/* Estilo para el campo de búsqueda */
+.search {
+    border-color: #1B5C3F; 
+    color: #1B5C3F;  
+    box-shadow: 10px 10px 20px -10px rgba(27,92,63,1) !important;
+    padding: 10px; 
+    width: 500px;  /* Ancho del campo de entrada */
+    margin-right: 10px;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+}
+
+/* Estilo para el campo de búsqueda al obtener el foco */
+.search:focus {
+    border-color: #1B5C3F;
+    box-shadow: 0 0 0 0.2rem rgba(0, 128, 0, 0.214);
+    outline: none;
+}
+
+
